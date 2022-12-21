@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h5 {
+  color: #8c8c8c;
+  font-size: 13px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 2rem 0px;
+}
+
+p {
+  line-height: 25px;
+}
+
+body {
+  background-color: #0e0e10;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #ffdd00 #0e0e10;
+  border-radius: 9999px;
+}
+
+html ::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  width: 0.6vw;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background-color: #ffdd00;
+  background-clip: padding-box;
+  border-radius: 9999px;
+}
+
+html ::-webkit-scrollbar-track {
+  background-color: #0e0e10;
+}
+
+.MuiRating-icon {
+  color: rgb(250 175 0) !important;
+}
+
+@media (max-width: 1450px) {
+}
+@media (max-width: 1366px) {
+}
+@media (max-width: 1280px) {
+  .adjust {
+    text-align: center;
+  }
+}
+@media (max-width: 1080px) {
+  .imgRes {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 460px) {
+}
